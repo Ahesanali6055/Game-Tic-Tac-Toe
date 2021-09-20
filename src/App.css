@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+  margin: 0;
+  background-color: rgb(8, 8, 48);
+}
+
+    /* << App >> */
+
+.game{
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  text-shadow: 3px 3px 60px wheat;
+}
+
+.game h1{
+   text-align: center;
+   font-size: 40px;
+   color: gold;
+}
+
+     /* << Board >> */
+
+.board{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.board_row{
+  display: flex;
+  justify-content: center;
+}
+
+.clearbtn{
+  margin-top: 15px;
+  background-color: wheat;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 5px,5px;
+  font-family: 'Caveat', cursive;
+  border-color: 2px solid go;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.clearbtn :hover{
+  background-color: gold;
+  color: aqua;
+}
+
+.result{
+  margin-top: 15px;
+  color: greenyellow;
+}
+
+     /* << Cross >> */
+
+.btn{
+  height: 120px;
+  width: 120px;
+  color: goldenrod;
+  font-size: 50px;
+  border-radius: 5px;
+  border-color: wheat;
+}
+
